@@ -1,2 +1,4 @@
 # NewGuessNumberGame
 A game that challenges you to guess a random number
+To win the game use the following strategy: each time you guess, choose a number from the middle of the range. This way you split all the alternatives if two halves and lessen the number of tries.
+To access the source code use the following link: https://raw.githubusercontent.com/pierrotto/NewGuessNumberGame/main/guessing_a_random_number.py
