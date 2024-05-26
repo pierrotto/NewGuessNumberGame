@@ -15,7 +15,11 @@ while True:
         continue
     if try_count == 7:
         print("Too many tries!")
-        break
+        restart = input("Do you want to play again 'yes'/'no'? ")
+        if restart == 'yes':
+            continue
+        elif restart == 'no':
+            break
     if int(player_guess) == rand_number:
         print(f"Congratulations! You entered the right number after {try_count} tries!")
         break
